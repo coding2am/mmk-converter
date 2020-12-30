@@ -7,21 +7,52 @@ body {
     min-height: 100vh;
     background-color: #F7F9F9;
 }
+@media only screen and (max-width: 860px) {
+   h1{
+    font-size: 1.5rem!important;
+   }
+   .logo {
+    width: 10rem!important;
+    }
+    input {
+        width: 6rem!important;
+        font-size: 1rem!important;
+    }
+    select {
+        padding:.3rem;
+    }
+    .logoContainer {
+        margin:3rem!important;
+    }
+     .sideContainer {
+         margin:3rem!important;
+     }
+}
+@media only screen and (max-width: 640px) {
+    .container {
+       display:inline-block!important;
+    }
+    .text span {
+        padding:.4rem!important;
+    }
+    .text span {
+        padding:.1rem!important;
+        font-size: 1rem!important;
+    }
+}
+
 
 .logo {
     width: 15rem;
 }
 .container {
-    /* background-color:green; */
     display: flex;
     justify-content:space-between;
 }
 .logoContainer {
-   /* background-color:red; */
    margin:5rem;
 }
 .sideContainer {
-    /* background-color:yellow; */
     margin:5rem;
 }
 
